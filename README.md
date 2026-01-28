@@ -12,10 +12,10 @@ Customer churn prediction helps businesses identify customers who are likely to 
 This project uses a trained machine learning model to predict churn based on customer input data.
 The system is split into two services:
 
-A)Backend (FastAPI)
+A)Backend (FastAPI):
 Handles model loading and prediction API.
 
-B)Frontend (Streamlit)
+B)Frontend (Streamlit):
 Provides a user-friendly web interface.
 
 Both services are containerized and run together using Docker Compose.
