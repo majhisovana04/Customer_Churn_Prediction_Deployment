@@ -20,7 +20,7 @@ Provides a user-friendly web interface.
 
 Both services are containerized and run together using Docker Compose.
 
-🧱 Project Structure:
+## 🧱 Project Structure:
 Customer_Churn_Prediction_Deployment/
 │
 ├── backend/
