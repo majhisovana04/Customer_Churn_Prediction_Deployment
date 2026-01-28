@@ -1,23 +1,26 @@
 # 📊 Customer Churn Prediction App
 
 ## FastAPI + Streamlit + Docker
+```bash
 A complete end-to-end Customer Churn Prediction application using Machine Learning, containerized with Docker, featuring:
 🚀 FastAPI backend for model inference
 🎨 Streamlit frontend for user interaction
 🐳 Docker & Docker Compose for deployment
-
+```
 ## 🔍 Project Overview
-
+```bash
 Customer churn prediction helps businesses identify customers who are likely to leave.
 This project uses a trained machine learning model to predict churn based on customer input data.
 The system is split into two services:
-
+```
+```bash
 A)Backend (FastAPI):
 Handles model loading and prediction API.
-
+```
+```bash
 B)Frontend (Streamlit):
 Provides a user-friendly web interface.
-
+```
 Both services are containerized and run together using Docker Compose.
 
 ## 🧱 Project Structure:
@@ -53,23 +56,27 @@ Docker Compose
 Make sure you have installed:
 Docker
 Docker Desktop (with WSL enabled on Windows)
-
+```bash
 2️⃣ Clone the Repository
 git clone https://github.com/majhisovana04/Customer_Churn_Prediction_Deployment.git
 cd Customer_Churn_Prediction_Deployment
-
+```
+```bash
 3️⃣ Build & Run Containers
 docker-compose up --build
-
+```
+```bash
 4️⃣ Access the Application
 Service	URL
 Streamlit Frontend	http://localhost:8501
 FastAPI Backend	http://localhost:8000
 API Docs (Swagger)	http://localhost:8000/docs
-
+```
+```bash
 📌 Key Features:
 ✅ ML model served via FastAPI
 ✅ Interactive UI with Streamlit
 ✅ Dockerized microservices
 ✅ Easy deployment with Docker Compose
 ✅ Clean & modular code structure
+```
